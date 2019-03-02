@@ -1,6 +1,6 @@
 ui <- fluidPage(
   
-  titlePanel("Test"),
+  titlePanel("Modular Shiny Template"),
   
   sidebarLayout(
     
@@ -11,11 +11,10 @@ ui <- fluidPage(
     mainPanel(
       tabsetPanel(
         tabPanel("Number 1", NumberModuleUI("number1")),
-        tabPanel("Number 2", NumberModuleUI("number2"))
+        tabPanel("Number 2", NumberModuleUI("number2")),
+        tabPanel("Plot", PlotModuleUI("plot"))
       )
     )
     
   )
 )
-
-
