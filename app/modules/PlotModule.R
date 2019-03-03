@@ -23,7 +23,3 @@ PlotModule <- function(input, output, session, sidebar_args) {
     )
   })
 }
-
-unlist(lapply(seq(from = 0, to = (modes-1)*3, by = 3), function(x) rnorm(10, mean = x)))
-
-
