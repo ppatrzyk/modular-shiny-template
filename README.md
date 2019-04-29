@@ -6,6 +6,10 @@ This is a basic template for a modularized Shiny app.
 
 This repo illustrates file organization for a shiny app that uses [modules](https://shiny.rstudio.com/articles/modules.html).
 
+Overview of structure:
+
+<img src="https://raw.githubusercontent.com/ppatrzyk/modular-shiny-template/master/modular-shiny.svg">
+
 ## Docker
 
 I included a basic `Dockerfile` for running a shiny app. In order to build and run an image run the following from the main repo directory:
