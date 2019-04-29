@@ -8,7 +8,7 @@ This repo illustrates file organization for a shiny app that uses [modules](http
 
 Overview of structure:
 
-<img src="https://raw.githubusercontent.com/ppatrzyk/modular-shiny-template/master/modular-shiny.svg">
+<img src="https://raw.githubusercontent.com/ppatrzyk/modular-shiny-template/master/modular-shiny.svg?sanitize=true">
 
 ## Docker
 
